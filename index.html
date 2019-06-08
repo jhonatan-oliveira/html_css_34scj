@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Teste</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <link rel="stylesheet" style type="text/css" href="styles.css" />
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>titulo principal</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+            </ul>
+            <ol>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+            </ol>
+        </nav>
+        <main>
+            <p id="jose">Jose</p>
+            <p class="maria">Maria</p>
+            <h2>titulo secundario</h2>
+            <section>sessao principal</section>
+            <div>
+                isso é uma coisa
+                <select>
+                    <option></option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            <hr>
+                <div>
+                    <a href="http://www.fiap.com.br" target="_blank">link</a>
+                    <a href="http://www.fiap.com.br" target="_blank">link</a>
+                    <a href="http://www.fiap.com.br" target="_blank">link</a>
+                </div>
+                <div>
+                    <svg version="1.1" baseProfile="full" width="300" height="200" xmlns="http://www.w3.org/2000/svg"> 
+                        <rect width="100%" height="100%" fill="black" /> 
+                        <circle cx="150" cy="100" r="90" fill="blue" /> 
+                    </svg>
+
+                    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+                            Your browser does not support the HTML5 canvas tag.
+                            </canvas>
+                            
+                    <script>
+                        var c = document.getElementById("myCanvas");
+                        var ctx = c.getContext("2d");
+                        ctx.moveTo(0,0);
+                        ctx.lineTo(200,100);
+                        ctx.stroke();
+                    </script>
+
+                </div>
+            </div>
+            <section>
+                section
+                <b>bold</b><br>
+                <strong>strong</strong>
+                <i>italico</i>
+                <em>enfase</em>
+                <small>small</small>
+                <span>span</span>
+                <span>span</span>
+                <span>span</span>
+                <img src="https://aquitemplacas.com.br/img/produtos/g/36-atencao-area-de-test e.jpg" alt="imagem"/>
+            </section>
+            <aside>lateral</aside>
+        </main>
+    </body>
+</html>
